@@ -18,8 +18,8 @@ modules:
       - appstream-compose --basename=org.gtk.Gtk3theme.Catppuccin-Latte-Red --prefix=${FLATPAK_DEST} --origin=flatpak org.gtk.Gtk3theme.Catppuccin-Latte-Red
     sources:
       - type: file
-        url: https://github.com/catppuccin/gtk/releases/download/v-0.2.7/Catppuccin-Latte-Red.zip
+        url: https://github.com/catppuccin/gtk/releases/download/v0.3.0/Catppuccin-Latte-Red.zip
         dest-filename: "theme.zip"
-        sha256: e0339e705b0cce69a1f33ad8beaf12308549732c818c425d53854644e7c202fe
+        sha256: 650ee6407a983dd4bf382bf418e12956f6f018871ea3fe76bc7dd1bf2fbb7a19
       - type: file
         path: org.gtk.Gtk3theme.Catppuccin-Latte-Red.appdata.xml
